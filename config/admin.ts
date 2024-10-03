@@ -1,4 +1,5 @@
 export default ({ env }) => ({
+  url: '/strapi',
   auth: {
     secret: env('ADMIN_JWT_SECRET'),
   },
